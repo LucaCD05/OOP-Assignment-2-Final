@@ -3,6 +3,10 @@ using System;
 
 namespace OOP_Assignment_2
 {
+    interface IGame
+    {
+        void Play();
+    }
     class Program
     {
         static void Main(string[] args)
@@ -11,6 +15,8 @@ namespace OOP_Assignment_2
             Statistics statistics = new Statistics();
             // game Object to manage the games
             Game game = new Game(statistics);
+
+
 
             // Loop for the main menu
             while (true)

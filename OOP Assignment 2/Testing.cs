@@ -22,7 +22,7 @@ namespace OOP_Assignment_2
 
         public static void TestThreeOrMore(Statistics testStatistics)
         {
-            // Create a Game object
+            // Create a Game objects
             Game game = new Game(testStatistics);
 
             // Run Three Or More game against a computer opponent

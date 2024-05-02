@@ -4,12 +4,13 @@ using System.Text;
 namespace  OOP_Assignment_2
 {
     // class for Sevens Out Game
-    internal class SevensOut
+    internal class SevensOut : IGame
     {
         private Die die1;
         private Die die2;
         private Statistics statistics; // instance for statistics
 
+        
         public SevensOut(Statistics stats) // accepting the statistics instamce
         {
             die1 = new Die();
